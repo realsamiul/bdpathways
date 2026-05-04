@@ -1,0 +1,6 @@
+modal  
+httpx  
+beautifulsoup4  
+supabase  
+google-generativeai  
+python-dotenv

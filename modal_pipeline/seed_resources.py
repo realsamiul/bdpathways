@@ -1,4 +1,5 @@
 import modal
+import time
 import httpx
 import os
 import json
@@ -196,8 +197,9 @@ Webpage text:
 {text}
 """
 
+            time.sleep(6)  # gentle pacing
             result = client.models.generate_content(
-                model="gemini-2.5-pro",
+                model="gemini-2.5-flash",
                 contents=prompt
             )
 
